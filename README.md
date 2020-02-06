@@ -10,6 +10,11 @@
     # => Hello from Johnny!
     # => Hello from TypeScript
     ```
+  2.3 Example to manually compile a TypeScript file:
+    ```shell
+    $ cd src/
+    $ browserify main.ts -p [ tsify --noImplicitAny ] > bundle.js
+    ```
 
 ## Troubleshooting
 
